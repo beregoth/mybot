@@ -17,7 +17,7 @@ PROXY = {'proxy_url': settings.PROXY_URL,
     }
 }
 def greet_user(update, context):
-    text = 'Вызван /start. Вы можете узнать созвездие, в котором сегодня находится планеты, вызвав /planet X, где X это название планеты на анг.языке'
+    text = 'Вызван /start. Вы можете узнать созвездие, в котором сегодня находится планета, вызвав /planet X, где X это название планеты на анг.языке'
     print(text)
     update.message.reply_text(text)
 
